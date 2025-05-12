@@ -29,6 +29,9 @@ async def search_documents(query: str, top_k=5):
     # Implementation of searching documents in the vector database
     pass
 
+# Assuming Server and types are part of a module that needs to be imported
+from some_module import Server, types  # Replace 'some_module' with the actual module name
+
 server = Server("city-issues-server")
 
 @server.list_tools()
