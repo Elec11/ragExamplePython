@@ -1,4 +1,5 @@
 import asyncio
+from vector_database import VectorDatabase, ChromaDB
 
 async def main():
     db_config = {
