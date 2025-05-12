@@ -1,6 +1,7 @@
 import chromadb
 from chromadb.api import Client as ChromaClient
 from chromadb.config import Settings
+from vector_database import VectorDatabase
 
 class ChromaDB(VectorDatabase):
     def __init__(self, collection_name: str, persistent_storage_path: str):
